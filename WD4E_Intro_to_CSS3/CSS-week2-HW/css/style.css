@@ -5,11 +5,7 @@ body{
   padding: 0;
 }
 
-a {
-  color: #6B2100;
-}
-
-header, footer {
+header {
   background-color: #FB8049;
   margin: 16px 0px 16px;
 }
@@ -38,6 +34,7 @@ li {
 }
 
 li a {
+  color: #6B2100;
   text-decoration: none;
   font-weight: bold;
 }
@@ -82,5 +79,7 @@ main p {
 }
 
 footer {
+  background-color: #E0E0E0;
+  margin: 16px 0px 16px;
   padding: 1px 8px;
 }
