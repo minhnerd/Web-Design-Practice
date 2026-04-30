@@ -3,20 +3,22 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Photo Gallery</title>
-	<link rel="stylesheet" href="/css/gallery.css">
-	<script src = "/js/gallery.js"></script>
+	<link rel="stylesheet" href="css/gallery.css">
+	<script src = "js/gallery.js"></script>
 </head>
-<body>
-	
+
+<body onload = "setTabIndex()">
 	<div id = "image">
 		Hover over an image below to display here.
 	</div>
 	
-	<img class = "preview" alt = "Styling with a Bandana" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon.jpg" onmouseover = "upDate(this)" onmouseout = "unDo()">
-	
-	<img class = "preview" alt = "With My Boy" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon2.JPG" onmouseover = "upDate(this)" onmouseout = "unDo()">
-	
-	<img class = "preview" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/389177/bacon3.jpg" alt = "Young Puppy" onmouseover = "upDate(this)" onmouseout = "unDo()">
-
+	<div class="container">
+		<img class = "preview" src = "img/gallery_1.jpg" alt = "Baby grey tuxedo cat lying on his side." onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+		<img class = "preview" src = "img/gallery_2.jpg" alt = "White ragdoll cat looking down from a high surface." onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+		<img class = "preview" src = "img/gallery_3.jpg" alt = "Grey tuxedo cat sitting among some vegetation." onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+		<img class = "preview" src = "img/gallery_4.jpg" alt = "White ragdoll kitten sleeping in a crescent position." onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+		<img class = "preview" src = "img/gallery_5.jpg" alt = "Tuxedo cat dressing up as a ghost for Halloween." onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+		<img class = "preview" src = "img/gallery_6.jpg" alt = "White ragdoll cat lying on her side." onmouseover = "upDate(this)" onmouseout = "unDo()" onfocus="upDate(this)" onblur="unDo()">
+	</div>
 </body>
 </html>
