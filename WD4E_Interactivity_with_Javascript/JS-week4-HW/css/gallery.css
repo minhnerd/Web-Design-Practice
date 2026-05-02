@@ -6,11 +6,11 @@ body{
 
 #image{
     line-height:1100px;
-		width: 600px;
+	width: 600px;
     height: 600px;
     border-radius: 48px;
-		margin:0 auto;
-    background-color: #7AC0B4;
+	margin:0 auto;
+    background-color: #06402B;
     background-image: url('');
     background-repeat: no-repeat;
     color: #fff;
